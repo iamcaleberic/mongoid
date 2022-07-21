@@ -1,5 +1,5 @@
 GIT
-  remote: git://github.com/mongoid/mongoid.git
+  remote: https://github.com/mongoid/mongoid.git
   revision: 63ece9973709a837a1817824d202b367db3e3688
   specs:
     mongoid (5.0.0.beta)
@@ -49,7 +49,7 @@ GEM
     arel (6.0.3)
     binding_of_caller (0.7.2)
       debug_inspector (>= 0.0.1)
-    bson (3.2.6)
+    bson (3.2.7)
     bson_ext (1.5.1)
     builder (3.2.2)
     byebug (8.2.2)
@@ -90,7 +90,7 @@ GEM
     multi_json (1.11.2)
     nokogiri (1.6.7.2)
       mini_portile2 (~> 2.0.0.rc2)
-    origin (2.2.0)
+    origin (2.3.1)
     rack (1.6.4)
     rack-test (0.6.3)
       rack (>= 1.0)
@@ -144,11 +144,11 @@ GEM
       libv8 (~> 3.16.14.0)
       ref
     thor (0.19.1)
-    thread_safe (0.3.5)
+    thread_safe (0.3.6)
     tilt (2.0.2)
     turbolinks (2.5.3)
       coffee-rails
-    tzinfo (1.2.2)
+    tzinfo (1.2.10)
       thread_safe (~> 0.1)
     uglifier (3.0.0)
       execjs (>= 0.3.0, < 3)
